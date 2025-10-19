@@ -10,7 +10,7 @@ predict_times = [0.41, 1.44, 16.32, 22.34, 53.73, 95.43]
 x = np.arange(len(models))  # X-axis positions
 width = 0.4  # Bar width
 
-plt.figure(figsize=(9,5))
+plt.figure(figsize=(10,7))
 sns.set_style("whitegrid")
 
 # Plot bars
